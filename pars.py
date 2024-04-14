@@ -1,7 +1,7 @@
 import csv
 import sqlparse
 
-with open(r'C:\Users\LENOVO\Desktop\sql_1\sql_1\output.csv', 'r', newline='') as csvfile:
+with open(r'output.csv', 'r', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
     
     for row in reader:
