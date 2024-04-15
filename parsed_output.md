@@ -121,7 +121,7 @@ Subqueries Used :-
 Column aliases Used :-
  {'average_salary': 'employees.salary'}
 
-
+```
 SELECT e.first_name,
        e.last_name,
        j.job_title,
@@ -130,7 +130,7 @@ FROM employees e
 JOIN jobs j ON e.job_id = j.job_id
 WHERE e.hire_date > '1995-01-01'
 ORDER BY e.hire_date"
-
+```
 Columns Used :-
  ['employees.first_name', 'employees.last_name', 'jobs.job_title', 'employees.hire_date', 'employees.job_id', 'jobs.job_id']
 
@@ -146,7 +146,7 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 SELECT d.department_name,
        e.first_name,
        e.last_name,
@@ -159,7 +159,7 @@ WHERE (e.department_id,
             MAX(salary)
      FROM employees
      GROUP BY department_id)"
-
+```
 Columns Used :-
  ['departments.department_name', 'employees.first_name', 'employees.last_name', 'employees.salary', 'employees.department_id', 'departments.department_id', 'department_id', 'salary']
 
@@ -175,14 +175,14 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 SELECT e.first_name AS employee_first_name,
        e.last_name AS employee_last_name,
        m.first_name AS manager_first_name,
        m.last_name AS manager_last_name
 FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.employee_id"
-
+```
 Columns Used :-
  ['employees.first_name', 'employees.last_name', 'employees.manager_id', 'employees.employee_id']
 
@@ -198,13 +198,13 @@ Subqueries Used :-
 Column aliases Used :-
  {'employee_first_name': 'employees.first_name', 'employee_last_name': 'employees.last_name', 'manager_first_name': 'employees.first_name', 'manager_last_name': 'employees.last_name'}
 
-
+```
 SELECT d.department_name,
        SUM(e.salary) AS total_salary
 FROM employees e
 JOIN departments d ON e.department_id = d.department_id
 GROUP BY d.department_name"
-
+```
 Columns Used :-
  ['departments.department_name', 'employees.salary', 'employees.department_id', 'departments.department_id']
 
@@ -220,14 +220,14 @@ Subqueries Used :-
 Column aliases Used :-
  {'total_salary': 'employees.salary'}
 
-
+```
 SELECT e.employee_id,
        e.first_name,
        e.last_name,
        d.department_name
 FROM employees e
 JOIN departments d ON e.department_id = d.department_id"
-
+```
 Columns Used :- 
  ['employees.employee_id', 'employees.first_name', 'employees.last_name', 'departments.department_name', 'employees.department_id', 'departments.department_id']
 
@@ -243,10 +243,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 SELECT *
 FROM regions
-
+```
 Columns Used :-
  ['*']
 
@@ -262,10 +262,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (30,'Sandra','Taylor','Child',176)"
-
+```
 Values Inserted :-
  [30, 'Sandra', 'Taylor', 'Child', 176]
 
@@ -285,10 +285,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (29,'Alec','Partners','Child',146)"
-
+```
 Values Inserted :-
  [29, 'Alec', 'Partners', 'Child', 146]
 
@@ -308,10 +308,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (28,'Woody','Russell','Child',145)"
-
+```
 Values Inserted :- 
  [28, 'Woody', 'Russell', 'Child', 145]
 
@@ -331,10 +331,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (27,'Julia','Raphaely','Child',114)"
-
+```
 Values Inserted :-
  [27, 'Julia', 'Raphaely', 'Child', 114]
 
@@ -354,10 +354,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (26,'Rip','Colmenares','Child',119)"
-
+```
 Values Inserted :-
  [26, 'Rip', 'Colmenares', 'Child', 119]
 
@@ -377,10 +377,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (25,'Kevin','Himuro','Child',118)"
-
+```
 Values Inserted :-
  [25, 'Kevin', 'Himuro', 'Child', 118]
 
@@ -400,10 +400,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (24,'Cameron','Tobias','Child',117)"
-
+```
 Values Inserted :-
  [24, 'Cameron', 'Tobias', 'Child', 117]
 
@@ -423,10 +423,10 @@ Subqueries Used :-
 Column aliases Used :-
  {}
 
-
+```
 INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id)     
 VALUES (23,'Sandra','Baida','Child',116)"
-
+```
 Values Inserted :-
  [23, 'Sandra', 'Baida', 'Child', 116]
 
