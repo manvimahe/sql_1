@@ -1,4 +1,11 @@
 values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used 
+ ,[],['regions'],{},{}
+ ,[],['countries'],{},{}
+ ,[],['locations'],{},{}
+ ,[],['jobs'],{},{}
+ ,[],['departments'],{},{}
+ ,[],['employees'],{},{}
+ ,[],['dependents'],{},{}
 "[1, 'Europe']","['region_id', 'region_name']",['regions'],{},{}
 "[2, 'Americas']","['region_id', 'region_name']",['regions'],{},{}
 "[3, 'Asia']","['region_id', 'region_name']",['regions'],{},{}

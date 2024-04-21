@@ -1,1 +1,1 @@
-print (statements[i],'\n')
+print(len(statements))

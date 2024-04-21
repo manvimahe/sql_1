@@ -6,14 +6,18 @@ statements=[]
 
 with open(r'C:\Users\LENOVO\Desktop\sql_1\sql_1\output2.csv', 'r', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+
     
+   
     for row in reader:
-        # print (row, ) 
-        # # row1=(', '.join(row))
-        # print(row[-1])
-        # statements = sqlparse.split(row[-1])
-        # print(statements)
-        statements.append(sqlparse.format(row[-1], reindent=True, keyword_case='upper'))
+        if(len(row)>1 and 'Query'in row[-2]):
+            # # row1=(', '.join(row))
+            # print(row[-1])
+            # statements = sqlparse.split(row[-1])
+            # print(statements)
+            statements.append(sqlparse.format(row[-1], reindent=True, keyword_case='upper'))
+
+# print(len(statements))
 
 
 
@@ -24,21 +28,27 @@ with open(r'C:\Users\LENOVO\Desktop\sql_1\sql_1\output2.csv', 'r', newline='') a
 
 with open(r'parsed_data.csv', 'w', newline='') as outfile : 
     parsed_data=[['values inserted', 'Columns Used ', 'Tables Used ', ' Tables Used ',' Column aliases Used ']]
+   
     
     for i in range(4, len(statements)):
-        # print (statements[i],'\n')
-        p=Parser(statements[i])
-        data=[]
-        if ('INSERT' in statements[i]):
-            # print('Values Inserted :- \n',p.values, '\n\n')
-            data.append(p.values)
-        else:
-            data.append(' ')
-        data.append(p.columns)
-        data.append(p.tables)
-        data.append(p.subqueries)
-        data.append(p.columns_aliases)
-        parsed_data.append(data)
+        # print(statements[i])
+        try:
+            
+                # print (statements[i],'\n')
+                p=Parser(statements[i])
+                data=[]
+                if ('INSERT' in statements[i]):
+                    # print('Values Inserted :- \n',p.values, '\n\n')
+                    data.append(p.values)
+                else:
+                    data.append(' ')
+                data.append(p.columns)
+                data.append(p.tables)
+                data.append(p.subqueries)
+                data.append(p.columns_aliases)
+                parsed_data.append(data)
+        except ValueError:
+            continue
 
     writer = csv.writer(outfile)
     writer.writerows(parsed_data)
