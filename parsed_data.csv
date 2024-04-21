@@ -1,0 +1,148 @@
+values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used 
+"[1, 'Europe']","['region_id', 'region_name']",['regions'],{},{}
+"[2, 'Americas']","['region_id', 'region_name']",['regions'],{},{}
+"[3, 'Asia']","['region_id', 'region_name']",['regions'],{},{}
+"[4, 'Middle East and Africa']","['region_id', 'region_name']",['regions'],{},{}
+"['AR', 'Argentina', 2]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['AU', 'Australia', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['BE', 'Belgium', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['BR', 'Brazil', 2]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['CA', 'Canada', 2]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['CH', 'Switzerland', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['CN', 'China', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['DE', 'Germany', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['DK', 'Denmark', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['EG', 'Egypt', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['FR', 'France', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['HK', 'HongKong', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['IL', 'Israel', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['IN', 'India', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['IT', 'Italy', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['JP', 'Japan', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['KW', 'Kuwait', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['MX', 'Mexico', 2]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['NG', 'Nigeria', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['NL', 'Netherlands', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['SG', 'Singapore', 3]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['UK', 'United Kingdom', 1]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['US', 'United States of America', 2]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['ZM', 'Zambia', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"['ZW', 'Zimbabwe', 4]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"[1400, '2014 Jabberwocky Rd', '26192', 'Southlake', 'Texas', 'US']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[1500, '2011 Interiors Blvd', '99236', 'South San Francisco', 'California', 'US']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[1700, '2004 Charade Rd', '98199', 'Seattle', 'Washington', 'US']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[1800, '147 Spadina Ave', 'M5V 2L7', 'Toronto', 'Ontario', 'CA']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[2400, '8204 Arthur St', 'NULL', 'London', 'NULL', 'UK']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[2500, 'Magdalen Centre, The Oxford Science Park', 'OX9 9ZB', 'Oxford', 'Oxford', 'UK']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[2700, 'Schwanthalerstr. 7031', '80925', 'Munich', 'Bavaria', 'DE']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[1, 'Public Accountant', 4200.0, 9000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[2, 'Accounting Manager', 8200.0, 16000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[3, 'Administration Assistant', 3000.0, 6000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[4, 'President', 20000.0, 40000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[5, 'Administration Vice President', 15000.0, 30000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[6, 'Accountant', 4200.0, 9000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[7, 'Finance Manager', 8200.0, 16000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[8, 'Human Resources Representative', 4000.0, 9000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[9, 'Programmer', 4000.0, 10000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[10, 'Marketing Manager', 9000.0, 15000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[11, 'Marketing Representative', 4000.0, 9000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[12, 'Public Relations Representative', 4500.0, 10500.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[13, 'Purchasing Clerk', 2500.0, 5500.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[14, 'Purchasing Manager', 8000.0, 15000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[15, 'Sales Manager', 10000.0, 20000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[16, 'Sales Representative', 6000.0, 12000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[17, 'Shipping Clerk', 2500.0, 5500.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[18, 'Stock Clerk', 2000.0, 5000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[19, 'Stock Manager', 5500.0, 8500.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[1, 'Administration', 1700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[2, 'Marketing', 1800]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[3, 'Purchasing', 1700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[4, 'Human Resources', 2400]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[5, 'Shipping', 1500]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[6, 'IT', 1400]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[7, 'Public Relations', 2700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[8, 'Sales', 2500]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[9, 'Executive', 1700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[10, 'Finance', 1700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[11, 'Accounting', 1700]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[100, 'Steven', 'King', 'steven.king@sqltutorial.org', '515.123.4567', '1987-06-17', 4, 24000.0, 'NULL', 9]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[101, 'Neena', 'Kochhar', 'neena.kochhar@sqltutorial.org', '515.123.4568', '1989-09-21', 5, 17000.0, 100, 9]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[102, 'Lex', 'De Haan', 'lex.de haan@sqltutorial.org', '515.123.4569', '1993-01-13', 5, 17000.0, 100, 9]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[103, 'Alexander', 'Hunold', 'alexander.hunold@sqltutorial.org', '590.423.4567', '1990-01-03', 9, 9000.0, 102, 6]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[104, 'Bruce', 'Ernst', 'bruce.ernst@sqltutorial.org', '590.423.4568', '1991-05-21', 9, 6000.0, 103, 6]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[105, 'David', 'Austin', 'david.austin@sqltutorial.org', '590.423.4569', '1997-06-25', 9, 4800.0, 103, 6]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[106, 'Valli', 'Pataballa', 'valli.pataballa@sqltutorial.org', '590.423.4560', '1998-02-05', 9, 4800.0, 103, 6]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[107, 'Diana', 'Lorentz', 'diana.lorentz@sqltutorial.org', '590.423.5567', '1999-02-07', 9, 4200.0, 103, 6]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[108, 'Nancy', 'Greenberg', 'nancy.greenberg@sqltutorial.org', '515.124.4569', '1994-08-17', 7, 12000.0, 101, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[109, 'Daniel', 'Faviet', 'daniel.faviet@sqltutorial.org', '515.124.4169', '1994-08-16', 6, 9000.0, 108, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[110, 'John', 'Chen', 'john.chen@sqltutorial.org', '515.124.4269', '1997-09-28', 6, 8200.0, 108, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[111, 'Ismael', 'Sciarra', 'ismael.sciarra@sqltutorial.org', '515.124.4369', '1997-09-30', 6, 7700.0, 108, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[112, 'Jose Manuel', 'Urman', 'jose manuel.urman@sqltutorial.org', '515.124.4469', '1998-03-07', 6, 7800.0, 108, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[113, 'Luis', 'Popp', 'luis.popp@sqltutorial.org', '515.124.4567', '1999-12-07', 6, 6900.0, 108, 10]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[114, 'Den', 'Raphaely', 'den.raphaely@sqltutorial.org', '515.127.4561', '1994-12-07', 14, 11000.0, 100, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[115, 'Alexander', 'Khoo', 'alexander.khoo@sqltutorial.org', '515.127.4562', '1995-05-18', 13, 3100.0, 114, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[116, 'Shelli', 'Baida', 'shelli.baida@sqltutorial.org', '515.127.4563', '1997-12-24', 13, 2900.0, 114, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[117, 'Sigal', 'Tobias', 'sigal.tobias@sqltutorial.org', '515.127.4564', '1997-07-24', 13, 2800.0, 114, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[118, 'Guy', 'Himuro', 'guy.himuro@sqltutorial.org', '515.127.4565', '1998-11-15', 13, 2600.0, 114, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[119, 'Karen', 'Colmenares', 'karen.colmenares@sqltutorial.org', '515.127.4566', '1999-08-10', 13, 2500.0, 114, 3]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[120, 'Matthew', 'Weiss', 'matthew.weiss@sqltutorial.org', '650.123.1234', '1996-07-18', 19, 8000.0, 100, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[121, 'Adam', 'Fripp', 'adam.fripp@sqltutorial.org', '650.123.2234', '1997-04-10', 19, 8200.0, 100, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[122, 'Payam', 'Kaufling', 'payam.kaufling@sqltutorial.org', '650.123.3234', '1995-05-01', 19, 7900.0, 100, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[123, 'Shanta', 'Vollman', 'shanta.vollman@sqltutorial.org', '650.123.4234', '1997-10-10', 19, 6500.0, 100, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[126, 'Irene', 'Mikkilineni', 'irene.mikkilineni@sqltutorial.org', '650.124.1224', '1998-09-28', 18, 2700.0, 120, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[145, 'John', 'Russell', 'john.russell@sqltutorial.org', 'NULL', '1996-10-01', 15, 14000.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[146, 'Karen', 'Partners', 'karen.partners@sqltutorial.org', 'NULL', '1997-01-05', 15, 13500.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[176, 'Jonathon', 'Taylor', 'jonathon.taylor@sqltutorial.org', 'NULL', '1998-03-24', 16, 8600.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[177, 'Jack', 'Livingston', 'jack.livingston@sqltutorial.org', 'NULL', '1998-04-23', 16, 8400.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[178, 'Kimberely', 'Grant', 'kimberely.grant@sqltutorial.org', 'NULL', '1999-05-24', 16, 7000.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[179, 'Charles', 'Johnson', 'charles.johnson@sqltutorial.org', 'NULL', '2000-01-04', 16, 6200.0, 100, 8]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[192, 'Sarah', 'Bell', 'sarah.bell@sqltutorial.org', '650.501.1876', '1996-02-04', 17, 4000.0, 123, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[193, 'Britney', 'Everett', 'britney.everett@sqltutorial.org', '650.501.2876', '1997-03-03', 17, 3900.0, 123, 5]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[200, 'Jennifer', 'Whalen', 'jennifer.whalen@sqltutorial.org', '515.123.4444', '1987-09-17', 3, 4400.0, 101, 1]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[201, 'Michael', 'Hartstein', 'michael.hartstein@sqltutorial.org', '515.123.5555', '1996-02-17', 10, 13000.0, 100, 2]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[202, 'Pat', 'Fay', 'pat.fay@sqltutorial.org', '603.123.6666', '1997-08-17', 11, 6000.0, 201, 2]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[203, 'Susan', 'Mavris', 'susan.mavris@sqltutorial.org', '515.123.7777', '1994-06-07', 8, 6500.0, 101, 4]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[204, 'Hermann', 'Baer', 'hermann.baer@sqltutorial.org', '515.123.8888', '1994-06-07', 12, 10000.0, 101, 7]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[205, 'Shelley', 'Higgins', 'shelley.higgins@sqltutorial.org', '515.123.8080', '1994-06-07', 2, 12000.0, 101, 11]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[206, 'William', 'Gietz', 'william.gietz@sqltutorial.org', '515.123.8181', '1994-06-07', 1, 8300.0, 205, 11]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[1, 'Penelope', 'Gietz', 'Child', 206]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[2, 'Nick', 'Higgins', 'Child', 205]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[3, 'Ed', 'Whalen', 'Child', 200]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[4, 'Jennifer', 'King', 'Child', 100]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[5, 'Johnny', 'Kochhar', 'Child', 101]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[6, 'Bette', 'De Haan', 'Child', 102]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[7, 'Grace', 'Faviet', 'Child', 109]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[8, 'Matthew', 'Chen', 'Child', 110]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[9, 'Joe', 'Sciarra', 'Child', 111]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[10, 'Christian', 'Urman', 'Child', 112]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[11, 'Zero', 'Popp', 'Child', 113]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[12, 'Karl', 'Greenberg', 'Child', 108]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[13, 'Uma', 'Mavris', 'Child', 203]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[14, 'Vivien', 'Hunold', 'Child', 103]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[15, 'Cuba', 'Ernst', 'Child', 104]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[16, 'Fred', 'Austin', 'Child', 105]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[17, 'Helen', 'Pataballa', 'Child', 106]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[18, 'Dan', 'Lorentz', 'Child', 107]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[19, 'Bob', 'Hartstein', 'Child', 201]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[20, 'Lucille', 'Fay', 'Child', 202]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[21, 'Kirsten', 'Baer', 'Child', 204]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[22, 'Elvis', 'Khoo', 'Child', 115]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[23, 'Sandra', 'Baida', 'Child', 116]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[24, 'Cameron', 'Tobias', 'Child', 117]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[25, 'Kevin', 'Himuro', 'Child', 118]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[26, 'Rip', 'Colmenares', 'Child', 119]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[27, 'Julia', 'Raphaely', 'Child', 114]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[28, 'Woody', 'Russell', 'Child', 145]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[29, 'Alec', 'Partners', 'Child', 146]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+"[30, 'Sandra', 'Taylor', 'Child', 176]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+ ,['*'],['regions'],{},{}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'departments.department_name', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{}
+ ,"['departments.department_name', 'employees.salary', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{'total_salary': 'employees.salary'}
+ ,"['employees.first_name', 'employees.last_name', 'employees.manager_id', 'employees.employee_id']",['employees'],{},"{'employee_first_name': 'employees.first_name', 'employee_last_name': 'employees.last_name', 'manager_first_name': 'employees.first_name', 'manager_last_name': 'employees.last_name'}"
+ ,"['departments.department_name', 'employees.first_name', 'employees.last_name', 'employees.salary', 'employees.department_id', 'departments.department_id', 'department_id', 'salary']","['employees', 'departments']",{},{}
+ ,"['employees.first_name', 'employees.last_name', 'jobs.job_title', 'employees.hire_date', 'employees.job_id', 'jobs.job_id']","['employees', 'jobs']",{},{}
+ ,"['jobs.job_title', 'employees.salary', 'employees.job_id', 'jobs.job_id']","['employees', 'jobs']",{},{'average_salary': 'employees.salary'}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'dependents.dependent_id', 'dependents.employee_id']","['employees', 'dependents']",{},{'num_dependents': 'dependents.dependent_id'}
+ ,"['employees.first_name', 'employees.last_name', 'countries.country_name', 'regions.region_name', 'employees.department_id', 'departments.department_id', 'departments.location_id', 'locations.location_id', 'locations.country_id', 'countries.country_id', 'countries.region_id', 'regions.region_id']","['employees', 'departments', 'locations', 'countries', 'regions']",{},{}
+ ,"['departments.department_name', 'employees.salary', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{'total_salary': 'employees.salary'}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'dependents.dependent_id', 'dependents.employee_id']","['employees', 'dependents']",{},{'num_dependents': 'dependents.dependent_id'}
