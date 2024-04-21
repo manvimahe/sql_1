@@ -1,33 +1,344 @@
-event_time,user_host,thread_id,server_id,command_type,argument
-"2024-04-13 20:58:22.560052","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 20:58:34.979759","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 20:58:46.059875","[root] @ localhost [127.0.0.1]",19,1,Connect,...
-"2024-04-13 20:58:46.071658","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.072501","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.073344","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.075687","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.078897","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.096368","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.110278","root[root] @ localhost [127.0.0.1]",19,1,Query,...
-"2024-04-13 20:58:46.127606","[root] @ localhost [127.0.0.1]",20,1,Connect,...
-"2024-04-13 20:58:46.142567","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:46.143004","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:46.143380","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:46.145024","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:49.174555","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:52.191628","root[root] @ localhost [127.0.0.1]",20,1,Query,...
-"2024-04-13 20:58:55.205122","root[root] @ localhost [127.0.0.1]",20,1,Quit,
-"2024-04-13 20:58:55.207611","root[root] @ localhost [127.0.0.1]",19,1,Quit,
-"2024-04-13 20:59:33.044474","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 20:59:33.053624","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:33.063878","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:33.064462","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:33.065778","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:46.198882","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 20:59:46.215045","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:46.217060","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 20:59:46.217785","root[root] @ localhost [127.0.0.1]",17,1,Query,...
-"2024-04-13 21:00:28.975401","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 21:00:28.975785","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 21:00:28.977241","root[root] @ localhost [127.0.0.1]",18,1,Query,...
-"2024-04-13 21:01:04.757942","root[root] @ localhost [127.0.0.1]",18,1,Query,...
+2024-04-13 20:58:22.560052#root[root] @ localhost [127.0.0.1]#18#1#Query#"b""set global log_output = 'able'"""
+2024-04-13 20:58:34.979759#root[root] @ localhost [127.0.0.1]#18#1#Query#"b""set global log_output = 'table'"""
+2024-04-13 20:58:46.059875#[root] @ localhost [127.0.0.1]#19#1#Connect#b'root@localhost on  using SSL/TLS'
+2024-04-13 20:58:46.071658#root[root] @ localhost [127.0.0.1]#19#1#Query#b'set autocommit=1'
+2024-04-13 20:58:46.072501#root[root] @ localhost [127.0.0.1]#19#1#Query#b'SELECT current_user()'
+2024-04-13 20:58:46.073344#root[root] @ localhost [127.0.0.1]#19#1#Query#"b""show character set where charset = 'utf8mb4'"""
+2024-04-13 20:58:46.075687#root[root] @ localhost [127.0.0.1]#19#1#Query#"b""SET NAMES 'utf8mb4'"""
+2024-04-13 20:58:46.078897#root[root] @ localhost [127.0.0.1]#19#1#Query#b'SHOW VARIABLES'
+2024-04-13 20:58:46.096368#root[root] @ localhost [127.0.0.1]#19#1#Query#b'SHOW GLOBAL STATUS'
+2024-04-13 20:58:46.110278#root[root] @ localhost [127.0.0.1]#19#1#Query#b'SHOW PLUGINS'
+2024-04-13 20:58:46.127606#[root] @ localhost [127.0.0.1]#20#1#Connect#b'root@localhost on  using SSL/TLS'
+2024-04-13 20:58:46.142567#root[root] @ localhost [127.0.0.1]#20#1#Query#b'set autocommit=1'
+2024-04-13 20:58:46.143004#root[root] @ localhost [127.0.0.1]#20#1#Query#b'SELECT current_user()'
+2024-04-13 20:58:46.143380#root[root] @ localhost [127.0.0.1]#20#1#Query#"b""show character set where charset = 'utf8mb4'"""
+2024-04-13 20:58:46.145024#root[root] @ localhost [127.0.0.1]#20#1#Query#"b""SET NAMES 'utf8mb4'"""
+2024-04-13 20:58:49.174555#root[root] @ localhost [127.0.0.1]#20#1#Query#b'SHOW GLOBAL STATUS'
+2024-04-13 20:58:52.191628#root[root] @ localhost [127.0.0.1]#20#1#Query#b'SHOW GLOBAL STATUS'
+2024-04-13 20:58:55.205122#root[root] @ localhost [127.0.0.1]#20#1#Quit#b''
+2024-04-13 20:58:55.207611#root[root] @ localhost [127.0.0.1]#19#1#Quit#b''
+2024-04-13 20:59:33.044474#root[root] @ localhost [127.0.0.1]#18#1#Query#b'select * from regions\nLIMIT 0, 1000'
+2024-04-13 20:59:33.053624#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 18'
+2024-04-13 20:59:33.063878#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 365'
+2024-04-13 20:59:33.064462#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 365'
+2024-04-13 20:59:33.065778#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SHOW INDEX FROM `hr`.`regions`'
+2024-04-13 20:59:46.198882#root[root] @ localhost [127.0.0.1]#18#1#Query#b'show databases'
+2024-04-13 20:59:46.215045#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 18'
+2024-04-13 20:59:46.217060#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 368'
+2024-04-13 20:59:46.217785#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 368'
+2024-04-13 21:00:28.975401#root[root] @ localhost [127.0.0.1]#18#1#Query#b'use mysql'
+2024-04-13 21:00:28.975785#root[root] @ localhost [127.0.0.1]#18#1#Query#b'SELECT DATABASE()'
+2024-04-13 21:00:28.977241#root[root] @ localhost [127.0.0.1]#18#1#Query#b'show tables'
+2024-04-13 21:01:04.757942#root[root] @ localhost [127.0.0.1]#18#1#Query#b'select * from general_log\nLIMIT 0, 1000'
+2024-04-13 21:01:04.774801#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 18'
+2024-04-13 21:01:04.776788#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 376'
+2024-04-13 21:01:04.777601#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 376'
+2024-04-13 21:01:04.780145#root[root] @ localhost [127.0.0.1]#17#1#Query#b'SHOW INDEX FROM `mysql`.`general_log`'
+2024-04-13 21:25:27.647685#[root] @ localhost [::1]#21#1#Connect#b'root@localhost on  using SSL/TLS'
+2024-04-13 21:25:27.658451#root[root] @ localhost [::1]#21#1#Query#b'select @@version_comment limit 1'
+2024-04-13 21:25:36.135611#root[root] @ localhost [::1]#21#1#Query#b'SELECT DATABASE()'
+2024-04-13 21:25:36.135872#root[root] @ localhost [::1]#21#1#Init DB#b'mysql'
+2024-04-13 21:25:49.086297#root[root] @ localhost [::1]#21#1#Query#b'select * from general_log'
+2024-04-15 20:30:52.912858#[root] @ localhost [127.0.0.1]#22#1#Connect#b'root@localhost on  using SSL/TLS'
+2024-04-15 20:30:52.946903#root[root] @ localhost [127.0.0.1]#22#1#Query#b'set autocommit=1'
+2024-04-15 20:30:52.952627#root[root] @ localhost [127.0.0.1]#22#1#Query#b'SELECT current_user()'
+2024-04-15 20:30:52.962280#root[root] @ localhost [127.0.0.1]#22#1#Query#b'SET CHARACTER SET utf8'
+2024-04-15 20:30:52.965491#root[root] @ localhost [127.0.0.1]#22#1#Query#b'SET NAMES utf8'
+2024-04-15 20:30:52.967582#root[root] @ localhost [127.0.0.1]#22#1#Query#"b""SHOW SESSION VARIABLES LIKE 'sql_mode'"""
+2024-04-15 20:30:53.007005#root[root] @ localhost [127.0.0.1]#22#1#Query#b'SELECT CONNECTION_ID()'
+2024-04-15 20:30:53.008498#root[root] @ localhost [127.0.0.1]#22#1#Query#"b""show character set where charset = 'utf8mb4'"""
+2024-04-15 20:30:53.028694#root[root] @ localhost [127.0.0.1]#22#1#Query#"b""SET NAMES 'utf8mb4'"""
+2024-04-15 20:30:53.031615#root[root] @ localhost [127.0.0.1]#22#1#Query#"b""SHOW SESSION STATUS LIKE 'Ssl_cipher'"""
+2024-04-15 20:30:53.043587#root[root] @ localhost [127.0.0.1]#22#1#Query#b'set autocommit=1'
+2024-04-15 20:30:53.063248#[root] @ localhost [127.0.0.1]#23#1#Connect#b'root@localhost on  using SSL/TLS'
+2024-04-15 20:30:53.074675#root[root] @ localhost [127.0.0.1]#23#1#Query#b'set autocommit=1'
+2024-04-15 20:30:53.074921#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SELECT current_user()'
+2024-04-15 20:30:53.075142#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SET CHARACTER SET utf8'
+2024-04-15 20:30:53.075538#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SET NAMES utf8'
+2024-04-15 20:30:53.076003#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SET SQL_SAFE_UPDATES=1'
+2024-04-15 20:30:53.076255#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SELECT CONNECTION_ID()'
+2024-04-15 20:30:53.076458#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""show character set where charset = 'utf8mb4'"""
+2024-04-15 20:30:53.077726#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SET NAMES 'utf8mb4'"""
+2024-04-15 20:30:53.077943#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION STATUS LIKE 'Ssl_cipher'"""
+2024-04-15 20:30:53.079279#root[root] @ localhost [127.0.0.1]#23#1#Query#b'set autocommit=1'
+2024-04-15 20:30:53.079480#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'sql_mode'"""
+2024-04-15 20:30:53.081966#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'version_comment'"""
+2024-04-15 20:30:53.083485#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'version'"""
+2024-04-15 20:30:53.085432#root[root] @ localhost [127.0.0.1]#23#1#Query#b'SELECT current_user()'
+2024-04-15 20:30:53.085685#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'lower_case_table_names'"""
+2024-04-15 20:30:53.462229#root[root] @ localhost [127.0.0.1]#22#1#Query#b'SHOW DATABASES'
+2024-04-15 20:30:53.464194#root[root] @ localhost [127.0.0.1]#23#1#Query#b'show engines'
+2024-04-15 20:30:53.467096#root[root] @ localhost [127.0.0.1]#23#1#Query#b'show charset'
+2024-04-15 20:30:53.470959#root[root] @ localhost [127.0.0.1]#23#1#Query#b'show collation'
+2024-04-15 20:30:53.481610#root[root] @ localhost [127.0.0.1]#23#1#Query#b'show variables'
+2024-04-15 20:30:53.488185#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'version_compile_os'"""
+2024-04-15 20:30:53.491141#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'offline_mode'"""
+2024-04-15 20:30:53.625080#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'wait_timeout'"""
+2024-04-15 20:30:53.627627#root[root] @ localhost [127.0.0.1]#23#1#Query#"b""SHOW SESSION VARIABLES LIKE 'interactive_timeout'"""
+2024-04-15 20:31:40.452571#root[root] @ localhost [127.0.0.1]#23#1#Query#b'set global log_output=file'
+2024-04-21 18:02:56.874364#root[root] @ localhost [127.0.0.1]#36#1#Query#b'use hr2'
+2024-04-21 18:02:56.875642#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT DATABASE()'
+2024-04-21 18:02:56.877265#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT e.employee_id, e.first_name, e.last_name, d.department_name FROM employees e JOIN departments d ON e.department_id = d.department_id\nLIMIT 0, 1000'
+2024-04-21 18:02:56.888679#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT d.department_name, SUM(e.salary) AS total_salary FROM employees e JOIN departments d ON e.department_id = d.department_id GROUP BY d.department_name\nLIMIT 0, 1000'
+2024-04-21 18:02:56.899417#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT e.first_name AS employee_first_name, e.last_name AS employee_last_name, m.first_name AS manager_first_name, m.last_name AS manager_last_name FROM employees e LEFT JOIN employees m ON e.manager_id = m.employee_id\nLIMIT 0, 1000'
+2024-04-21 18:02:56.909972#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT d.department_name, e.first_name, e.last_name, e.salary FROM employees e JOIN departments d ON e.department_id = d.department_id WHERE (e.department_id, e.salary) IN ( SELECT department_id, MAX(salary) FROM employees GROUP BY department_id )\nLIMIT 0, 1000'
+2024-04-21 18:02:56.919788#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""SELECT e.first_name, e.last_name, j.job_title, e.hire_date FROM employees e JOIN jobs j ON e.job_id = j.job_id WHERE e.hire_date > '1995-01-01' ORDER BY e.hire_date\nLIMIT 0, 1000"""
+2024-04-21 18:02:56.934648#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT j.job_title, AVG(e.salary) AS average_salary FROM employees e JOIN jobs j ON e.job_id = j.job_id GROUP BY j.job_title\nLIMIT 0, 1000'
+2024-04-21 18:02:56.946637#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT e.employee_id, e.first_name, e.last_name, COUNT(d.dependent_id) AS num_dependents FROM employees e LEFT JOIN dependents d ON e.employee_id = d.employee_id GROUP BY e.employee_id\nLIMIT 0, 1000'
+2024-04-21 18:02:56.958302#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT e.first_name, e.last_name, c.country_name, r.region_name FROM employees e JOIN departments d ON e.department_id = d.department_id JOIN locations l ON d.location_id = l.location_id JOIN countries c ON l.country_id = c.country_id JOIN regions r ON c.region_id = r.region_id\nLIMIT 0, 1000'
+2024-04-21 18:02:56.970147#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT d.department_name, SUM(e.salary) AS total_salary FROM employees e JOIN departments d ON e.department_id = d.department_id GROUP BY d.department_name ORDER BY total_salary DESC LIMIT 1'
+2024-04-21 18:02:56.981618#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT e.employee_id, e.first_name, e.last_name, COUNT(d.dependent_id) AS num_dependents FROM employees e LEFT JOIN dependents d ON e.employee_id = d.employee_id GROUP BY e.employee_id ORDER BY num_dependents DESC\nLIMIT 0, 1000'
+2024-04-21 18:03:21.361821#root[root] @ localhost [127.0.0.1]#36#1#Query#b'use mysql'
+2024-04-21 18:03:21.363616#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT DATABASE()'
+2024-04-21 18:03:21.365089#root[root] @ localhost [127.0.0.1]#36#1#Query#b'select * from general_log\nLIMIT 0, 1000'
+2024-04-21 18:03:21.372382#root[root] @ localhost [127.0.0.1]#35#1#Query#b'SHOW INDEX FROM `mysql`.`general_log`'
+2024-04-21 18:03:51.941909#[root] @ localhost [::1]#42#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:03:51.959894#root[root] @ localhost [::1]#42#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:03:51.960610#root[root] @ localhost [::1]#42#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:03:51.960820#root[root] @ localhost [::1]#42#1#Query#b'set autocommit=0'
+2024-04-21 18:03:51.962625#root[root] @ localhost [::1]#42#1#Query#b'Select * from general_log'
+2024-04-21 18:03:51.986091#root[root] @ localhost [::1]#42#1#Quit#b''
+2024-04-21 18:05:27.192879#root[root] @ localhost [127.0.0.1]#36#1#Query#b'use hr2'
+2024-04-21 18:05:27.193161#root[root] @ localhost [127.0.0.1]#36#1#Query#b'SELECT DATABASE()'
+2024-04-21 18:05:27.195183#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO regions(region_id, region_name) VALUES (5, 'Oceania')"""
+2024-04-21 18:05:27.217963#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO countries(country_id, country_name, region_id) VALUES ('NZ', 'New Zealand', 5)"""
+2024-04-21 18:05:27.223125#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO locations(location_id, street_address, postal_code, city, state_province, country_id) VALUES (2800, '123 Beach Rd', '54321', 'Auckland', NULL, 'NZ')"""
+2024-04-21 18:05:27.227126#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO jobs(job_id, job_title, min_salary, max_salary) VALUES (20, 'Data Analyst', 5000.00, 10000.00)"""
+2024-04-21 18:05:27.231134#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO departments(department_id, department_name, location_id) VALUES (12, 'Data Analysis', 2800)"""
+2024-04-21 18:05:27.234455#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO employees(employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, manager_id, department_id) VALUES (300, 'Emma', 'Smith', 'emma.smith@example.com', '123.456.7890', '2023-05-15', 20, 8000.00, 100, 12)"""
+2024-04-21 18:05:27.239035#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO dependents(dependent_id, first_name, last_name, relationship, employee_id) VALUES (31, 'Oliver', 'Smith', 'Child', 300)"""
+2024-04-21 18:06:41.249174#root[root] @ localhost [127.0.0.1]#36#1#Query#b'CREATE TABLE employee_skills (\n    skill_id INT AUTO_INCREMENT PRIMARY KEY,\n    skill_name VARCHAR(50),\n    employee_id INT,\n    FOREIGN KEY (employee_id) REFERENCES employees(employee_id)\n)'
+2024-04-21 18:06:41.358072#root[root] @ localhost [127.0.0.1]#36#1#Query#"b""INSERT INTO employee_skills (skill_name, employee_id) VALUES \n('SQL', 100),\n('Python', 103),\n('Java', 110),\n('Data Analysis', 300)"""
+2024-04-21 18:06:47.499578#[root] @ localhost [::1]#43#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:06:47.502342#root[root] @ localhost [::1]#43#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:06:47.502961#root[root] @ localhost [::1]#43#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:06:47.503068#root[root] @ localhost [::1]#43#1#Query#b'set autocommit=0'
+2024-04-21 18:06:47.504174#root[root] @ localhost [::1]#43#1#Query#b'Select * from general_log'
+2024-04-21 18:06:47.531774#root[root] @ localhost [::1]#43#1#Quit#b''
+2024-04-21 18:09:33.932929#[root] @ localhost [::1]#44#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:09:33.958881#root[root] @ localhost [::1]#44#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:09:33.959812#root[root] @ localhost [::1]#44#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:09:33.959973#root[root] @ localhost [::1]#44#1#Query#b'set autocommit=0'
+2024-04-21 18:09:33.961048#root[root] @ localhost [::1]#44#1#Query#b'Select * from general_log'
+2024-04-21 18:09:33.999012#root[root] @ localhost [::1]#44#1#Quit#b''
+2024-04-21 18:11:41.577597#[root] @ localhost [::1]#45#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:11:41.585821#root[root] @ localhost [::1]#45#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:11:41.586658#root[root] @ localhost [::1]#45#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:11:41.586860#root[root] @ localhost [::1]#45#1#Query#b'set autocommit=0'
+2024-04-21 18:11:41.587735#root[root] @ localhost [::1]#45#1#Query#b'Select * from general_log'
+2024-04-21 18:11:41.652711#root[root] @ localhost [::1]#45#1#Quit#b''
+2024-04-21 18:14:24.178296#[root] @ localhost [::1]#46#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:14:24.185966#root[root] @ localhost [::1]#46#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:14:24.186812#root[root] @ localhost [::1]#46#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:14:24.186958#root[root] @ localhost [::1]#46#1#Query#b'set autocommit=0'
+2024-04-21 18:14:24.187873#root[root] @ localhost [::1]#46#1#Query#b'Select * from general_log'
+2024-04-21 18:14:24.228734#root[root] @ localhost [::1]#46#1#Quit#b''
+2024-04-21 18:15:05.473071#[root] @ localhost [::1]#47#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:15:05.481096#root[root] @ localhost [::1]#47#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:15:05.481586#root[root] @ localhost [::1]#47#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:15:05.481761#root[root] @ localhost [::1]#47#1#Query#b'set autocommit=0'
+2024-04-21 18:15:05.482599#root[root] @ localhost [::1]#47#1#Query#b'Select * from general_log'
+2024-04-21 18:15:05.556193#root[root] @ localhost [::1]#47#1#Quit#b''
+2024-04-21 18:15:39.308628#[root] @ localhost [::1]#48#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:15:39.316200#root[root] @ localhost [::1]#48#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:15:39.316988#root[root] @ localhost [::1]#48#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:15:39.317177#root[root] @ localhost [::1]#48#1#Query#b'set autocommit=0'
+2024-04-21 18:15:39.317974#root[root] @ localhost [::1]#48#1#Query#b'Select * from general_log'
+2024-04-21 18:15:39.401172#root[root] @ localhost [::1]#48#1#Quit#b''
+2024-04-21 18:18:10.904160#[root] @ localhost [::1]#49#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:18:10.908824#root[root] @ localhost [::1]#49#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:18:10.909918#root[root] @ localhost [::1]#49#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:18:10.910107#root[root] @ localhost [::1]#49#1#Query#b'set autocommit=0'
+2024-04-21 18:18:10.911012#root[root] @ localhost [::1]#49#1#Query#b'Select * from general_log'
+2024-04-21 18:18:11.002917#root[root] @ localhost [::1]#49#1#Quit#b''
+2024-04-21 18:19:52.778963#[root] @ localhost [::1]#50#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:19:52.783107#root[root] @ localhost [::1]#50#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:19:52.783899#root[root] @ localhost [::1]#50#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:19:52.784088#root[root] @ localhost [::1]#50#1#Query#b'set autocommit=0'
+2024-04-21 18:19:52.785053#root[root] @ localhost [::1]#50#1#Query#b'Select * from general_log'
+2024-04-21 18:19:52.829565#root[root] @ localhost [::1]#50#1#Quit#b''
+2024-04-21 18:20:32.285645#[root] @ localhost [::1]#51#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:20:32.289470#root[root] @ localhost [::1]#51#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:20:32.290208#root[root] @ localhost [::1]#51#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:20:32.290317#root[root] @ localhost [::1]#51#1#Query#b'set autocommit=0'
+2024-04-21 18:20:32.291217#root[root] @ localhost [::1]#51#1#Query#b'Select * from general_log'
+2024-04-21 18:20:32.323479#root[root] @ localhost [::1]#51#1#Quit#b''
+2024-04-21 18:21:06.288903#[root] @ localhost [::1]#52#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:21:06.291597#root[root] @ localhost [::1]#52#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:21:06.292017#root[root] @ localhost [::1]#52#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:21:06.292333#root[root] @ localhost [::1]#52#1#Query#b'set autocommit=0'
+2024-04-21 18:21:06.293270#root[root] @ localhost [::1]#52#1#Query#b'Select * from general_log'
+2024-04-21 18:21:06.333701#root[root] @ localhost [::1]#52#1#Quit#b''
+2024-04-21 18:21:40.557795#[root] @ localhost [::1]#53#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:21:40.558434#root[root] @ localhost [::1]#53#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:21:40.560163#root[root] @ localhost [::1]#53#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:21:40.560505#root[root] @ localhost [::1]#53#1#Query#b'set autocommit=0'
+2024-04-21 18:21:40.561598#root[root] @ localhost [::1]#53#1#Query#b'Select * from general_log'
+2024-04-21 18:21:40.624519#root[root] @ localhost [::1]#53#1#Quit#b''
+2024-04-21 18:22:14.894459#[root] @ localhost [::1]#54#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:22:14.896248#root[root] @ localhost [::1]#54#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:22:14.896466#root[root] @ localhost [::1]#54#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:22:14.896662#root[root] @ localhost [::1]#54#1#Query#b'set autocommit=0'
+2024-04-21 18:22:14.897500#root[root] @ localhost [::1]#54#1#Query#b'Select * from general_log'
+2024-04-21 18:22:15.009897#root[root] @ localhost [::1]#54#1#Quit#b''
+2024-04-21 18:23:24.786700#[root] @ localhost [::1]#55#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:23:24.790716#root[root] @ localhost [::1]#55#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:23:24.791603#root[root] @ localhost [::1]#55#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:23:24.791794#root[root] @ localhost [::1]#55#1#Query#b'set autocommit=0'
+2024-04-21 18:23:24.792715#root[root] @ localhost [::1]#55#1#Query#b'Select * from general_log'
+2024-04-21 18:23:24.866774#root[root] @ localhost [::1]#55#1#Quit#b''
+2024-04-21 18:24:03.574807#[root] @ localhost [::1]#56#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:24:03.576405#root[root] @ localhost [::1]#56#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:24:03.576885#root[root] @ localhost [::1]#56#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:24:03.577056#root[root] @ localhost [::1]#56#1#Query#b'set autocommit=0'
+2024-04-21 18:24:03.577915#root[root] @ localhost [::1]#56#1#Query#b'Select * from general_log'
+2024-04-21 18:24:03.726786#root[root] @ localhost [::1]#56#1#Quit#b''
+2024-04-21 18:24:57.433536#[root] @ localhost [::1]#57#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:24:57.434481#root[root] @ localhost [::1]#57#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:24:57.434921#root[root] @ localhost [::1]#57#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:24:57.435098#root[root] @ localhost [::1]#57#1#Query#b'set autocommit=0'
+2024-04-21 18:24:57.435939#root[root] @ localhost [::1]#57#1#Query#b'Select * from general_log'
+2024-04-21 18:24:57.559745#root[root] @ localhost [::1]#57#1#Quit#b''
+2024-04-21 18:26:01.636711#[root] @ localhost [::1]#58#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:26:01.638341#root[root] @ localhost [::1]#58#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:26:01.638560#root[root] @ localhost [::1]#58#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:26:01.638748#root[root] @ localhost [::1]#58#1#Query#b'set autocommit=0'
+2024-04-21 18:26:01.639589#root[root] @ localhost [::1]#58#1#Query#b'Select * from general_log'
+2024-04-21 18:26:01.815114#root[root] @ localhost [::1]#58#1#Quit#b''
+2024-04-21 18:30:42.570360#[root] @ localhost [::1]#59#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:30:42.574115#root[root] @ localhost [::1]#59#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:30:42.574986#root[root] @ localhost [::1]#59#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:30:42.575174#root[root] @ localhost [::1]#59#1#Query#b'set autocommit=0'
+2024-04-21 18:30:42.576075#root[root] @ localhost [::1]#59#1#Query#b'Select * from general_log'
+2024-04-21 18:30:42.762437#root[root] @ localhost [::1]#59#1#Quit#b''
+2024-04-21 18:32:09.194145#[root] @ localhost [::1]#60#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:32:09.195833#root[root] @ localhost [::1]#60#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:32:09.196319#root[root] @ localhost [::1]#60#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:32:09.196540#root[root] @ localhost [::1]#60#1#Query#b'set autocommit=0'
+2024-04-21 18:32:09.197267#root[root] @ localhost [::1]#60#1#Query#b'Select * from general_log'
+2024-04-21 18:32:09.348158#root[root] @ localhost [::1]#60#1#Quit#b''
+2024-04-21 18:36:25.835359#[root] @ localhost [::1]#61#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:36:25.836961#root[root] @ localhost [::1]#61#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:36:25.837891#root[root] @ localhost [::1]#61#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:36:25.838082#root[root] @ localhost [::1]#61#1#Query#b'set autocommit=0'
+2024-04-21 18:36:25.838965#root[root] @ localhost [::1]#61#1#Query#b'Select * from general_log'
+2024-04-21 18:36:25.866216#root[root] @ localhost [::1]#61#1#Quit#b''
+2024-04-21 18:37:53.664051#[root] @ localhost [::1]#62#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:37:53.665970#root[root] @ localhost [::1]#62#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:37:53.666765#root[root] @ localhost [::1]#62#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:37:53.666939#root[root] @ localhost [::1]#62#1#Query#b'set autocommit=0'
+2024-04-21 18:37:53.667754#root[root] @ localhost [::1]#62#1#Query#b'Select * from general_log'
+2024-04-21 18:37:53.733722#root[root] @ localhost [::1]#62#1#Quit#b''
+2024-04-21 18:38:49.192193#[root] @ localhost [::1]#63#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:38:49.194427#root[root] @ localhost [::1]#63#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:38:49.195110#root[root] @ localhost [::1]#63#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:38:49.195259#root[root] @ localhost [::1]#63#1#Query#b'set autocommit=0'
+2024-04-21 18:38:49.195975#root[root] @ localhost [::1]#63#1#Query#b'Select * from general_log'
+2024-04-21 18:38:49.253003#root[root] @ localhost [::1]#63#1#Quit#b''
+2024-04-21 18:40:40.578164#[root] @ localhost [::1]#64#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:40:40.580960#root[root] @ localhost [::1]#64#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:40:40.581752#root[root] @ localhost [::1]#64#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:40:40.581942#root[root] @ localhost [::1]#64#1#Query#b'set autocommit=0'
+2024-04-21 18:40:40.582859#root[root] @ localhost [::1]#64#1#Query#b'Select * from general_log'
+2024-04-21 18:40:40.645954#root[root] @ localhost [::1]#64#1#Quit#b''
+2024-04-21 18:41:06.117711#[root] @ localhost [::1]#65#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:41:06.121115#root[root] @ localhost [::1]#65#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:41:06.121639#root[root] @ localhost [::1]#65#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:41:06.121828#root[root] @ localhost [::1]#65#1#Query#b'set autocommit=0'
+2024-04-21 18:41:06.122758#root[root] @ localhost [::1]#65#1#Query#b'Select * from general_log'
+2024-04-21 18:41:06.371646#root[root] @ localhost [::1]#65#1#Quit#b''
+2024-04-21 18:42:37.484208#[root] @ localhost [::1]#66#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:42:37.486936#root[root] @ localhost [::1]#66#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:42:37.487688#root[root] @ localhost [::1]#66#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:42:37.487876#root[root] @ localhost [::1]#66#1#Query#b'set autocommit=0'
+2024-04-21 18:42:37.488831#root[root] @ localhost [::1]#66#1#Query#b'Select * from general_log'
+2024-04-21 18:42:37.719162#root[root] @ localhost [::1]#66#1#Quit#b''
+2024-04-21 18:46:36.087665#[root] @ localhost [::1]#67#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:46:36.091548#root[root] @ localhost [::1]#67#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:46:36.092657#root[root] @ localhost [::1]#67#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:46:36.092773#root[root] @ localhost [::1]#67#1#Query#b'set autocommit=0'
+2024-04-21 18:46:36.093567#root[root] @ localhost [::1]#67#1#Query#b'Select * from general_log'
+2024-04-21 18:46:36.312545#root[root] @ localhost [::1]#67#1#Quit#b''
+2024-04-21 18:52:19.220479#[root] @ localhost [::1]#68#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:52:19.223344#root[root] @ localhost [::1]#68#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:52:19.224127#root[root] @ localhost [::1]#68#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:52:19.224331#root[root] @ localhost [::1]#68#1#Query#b'set autocommit=0'
+2024-04-21 18:52:19.225434#root[root] @ localhost [::1]#68#1#Query#b'Select * from general_log'
+2024-04-21 18:52:19.327163#root[root] @ localhost [::1]#68#1#Quit#b''
+2024-04-21 18:52:41.901775#[root] @ localhost [::1]#69#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:52:41.904658#root[root] @ localhost [::1]#69#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:52:41.905190#root[root] @ localhost [::1]#69#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:52:41.905376#root[root] @ localhost [::1]#69#1#Query#b'set autocommit=0'
+2024-04-21 18:52:41.906262#root[root] @ localhost [::1]#69#1#Query#b'Select * from general_log'
+2024-04-21 18:52:42.128302#root[root] @ localhost [::1]#69#1#Quit#b''
+2024-04-21 18:52:59.248329#[root] @ localhost [::1]#70#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:52:59.249851#root[root] @ localhost [::1]#70#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:52:59.249985#root[root] @ localhost [::1]#70#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:52:59.250074#root[root] @ localhost [::1]#70#1#Query#b'set autocommit=0'
+2024-04-21 18:52:59.250779#root[root] @ localhost [::1]#70#1#Query#b'Select * from general_log'
+2024-04-21 18:52:59.559184#root[root] @ localhost [::1]#70#1#Quit#b''
+2024-04-21 18:53:14.497964#[root] @ localhost [::1]#71#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:53:14.501012#root[root] @ localhost [::1]#71#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:53:14.501555#root[root] @ localhost [::1]#71#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:53:14.501744#root[root] @ localhost [::1]#71#1#Query#b'set autocommit=0'
+2024-04-21 18:53:14.502557#root[root] @ localhost [::1]#71#1#Query#b'Select * from general_log'
+2024-04-21 18:53:14.609245#root[root] @ localhost [::1]#71#1#Quit#b''
+2024-04-21 18:54:44.252576#[root] @ localhost [::1]#72#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:54:44.255563#root[root] @ localhost [::1]#72#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:54:44.255774#root[root] @ localhost [::1]#72#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:54:44.255898#root[root] @ localhost [::1]#72#1#Query#b'set autocommit=0'
+2024-04-21 18:54:44.256669#root[root] @ localhost [::1]#72#1#Query#b'Select * from general_log'
+2024-04-21 18:54:44.356689#root[root] @ localhost [::1]#72#1#Quit#b''
+2024-04-21 18:55:18.543692#[root] @ localhost [::1]#73#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:55:18.545518#root[root] @ localhost [::1]#73#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:55:18.545689#root[root] @ localhost [::1]#73#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:55:18.545830#root[root] @ localhost [::1]#73#1#Query#b'set autocommit=0'
+2024-04-21 18:55:18.546642#root[root] @ localhost [::1]#73#1#Query#b'Select * from general_log'
+2024-04-21 18:55:18.590537#root[root] @ localhost [::1]#73#1#Quit#b''
+2024-04-21 18:55:35.745130#[root] @ localhost [::1]#74#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:55:35.747008#root[root] @ localhost [::1]#74#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:55:35.747479#root[root] @ localhost [::1]#74#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:55:35.747667#root[root] @ localhost [::1]#74#1#Query#b'set autocommit=0'
+2024-04-21 18:55:35.748608#root[root] @ localhost [::1]#74#1#Query#b'Select * from general_log'
+2024-04-21 18:55:35.798196#root[root] @ localhost [::1]#74#1#Quit#b''
+2024-04-21 18:55:48.439603#[root] @ localhost [::1]#75#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:55:48.442477#root[root] @ localhost [::1]#75#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:55:48.442694#root[root] @ localhost [::1]#75#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:55:48.442852#root[root] @ localhost [::1]#75#1#Query#b'set autocommit=0'
+2024-04-21 18:55:48.443904#root[root] @ localhost [::1]#75#1#Query#b'Select * from general_log'
+2024-04-21 18:55:48.496183#root[root] @ localhost [::1]#75#1#Quit#b''
+2024-04-21 18:55:58.383810#[root] @ localhost [::1]#76#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:55:58.385270#root[root] @ localhost [::1]#76#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:55:58.385485#root[root] @ localhost [::1]#76#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:55:58.385669#root[root] @ localhost [::1]#76#1#Query#b'set autocommit=0'
+2024-04-21 18:55:58.386530#root[root] @ localhost [::1]#76#1#Query#b'Select * from general_log'
+2024-04-21 18:55:58.436791#root[root] @ localhost [::1]#76#1#Quit#b''
+2024-04-21 18:56:16.545015#[root] @ localhost [::1]#77#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:56:16.547029#root[root] @ localhost [::1]#77#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:56:16.547256#root[root] @ localhost [::1]#77#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:56:16.547440#root[root] @ localhost [::1]#77#1#Query#b'set autocommit=0'
+2024-04-21 18:56:16.548401#root[root] @ localhost [::1]#77#1#Query#b'Select * from general_log'
+2024-04-21 18:56:16.745251#root[root] @ localhost [::1]#77#1#Quit#b''
+2024-04-21 18:57:28.684447#[root] @ localhost [::1]#78#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:57:28.685103#root[root] @ localhost [::1]#78#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:57:28.685328#root[root] @ localhost [::1]#78#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:57:28.685512#root[root] @ localhost [::1]#78#1#Query#b'set autocommit=0'
+2024-04-21 18:57:28.686425#root[root] @ localhost [::1]#78#1#Query#b'Select * from general_log'
+2024-04-21 18:57:28.701447#root[root] @ localhost [::1]#78#1#Quit#b''
+2024-04-21 18:57:37.069619#[root] @ localhost [::1]#79#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:57:37.070304#root[root] @ localhost [::1]#79#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:57:37.070530#root[root] @ localhost [::1]#79#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:57:37.070718#root[root] @ localhost [::1]#79#1#Query#b'set autocommit=0'
+2024-04-21 18:57:37.071622#root[root] @ localhost [::1]#79#1#Query#b'Select * from general_log'
+2024-04-21 18:57:37.086481#root[root] @ localhost [::1]#79#1#Quit#b''
+2024-04-21 18:57:50.645552#[root] @ localhost [::1]#80#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:57:50.646517#root[root] @ localhost [::1]#80#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:57:50.646710#root[root] @ localhost [::1]#80#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:57:50.646885#root[root] @ localhost [::1]#80#1#Query#b'set autocommit=0'
+2024-04-21 18:57:50.647757#root[root] @ localhost [::1]#80#1#Query#b'Select * from general_log'
+2024-04-21 18:57:50.879312#root[root] @ localhost [::1]#80#1#Quit#b''
+2024-04-21 18:58:59.815890#[root] @ localhost [::1]#81#1#Connect#b'root@localhost on mysql using SSL/TLS'
+2024-04-21 18:58:59.817296#root[root] @ localhost [::1]#81#1#Query#"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'"""
+2024-04-21 18:58:59.817782#root[root] @ localhost [::1]#81#1#Query#b'SET NAMES utf8mb4'
+2024-04-21 18:58:59.817920#root[root] @ localhost [::1]#81#1#Query#b'set autocommit=0'
+2024-04-21 18:58:59.818566#root[root] @ localhost [::1]#81#1#Query#b'Select * from general_log'

@@ -1,0 +1,85 @@
+values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used 
+ ,[],[],{},{}
+ ,['*'],['regions'],{},{}
+ ,"['performance_schema.events_statements_current.*', 'performance_schema.threads.thread_id', 'performance_schema.events_statements_current.thread_id', 'performance_schema.threads.processlist_id']","['performance_schema.events_statements_current', 'performance_schema.threads']",{},{}
+ ,"['performance_schema.events_stages_history_long.*', 'performance_schema.events_stages_history_long.nesting_event_id']",['performance_schema.events_stages_history_long'],{},{}
+ ,"['performance_schema.events_waits_history_long.*', 'performance_schema.events_waits_history_long.nesting_event_id']",['performance_schema.events_waits_history_long'],{},{}
+ ,"['performance_schema.events_statements_current.*', 'performance_schema.threads.thread_id', 'performance_schema.events_statements_current.thread_id', 'performance_schema.threads.processlist_id']","['performance_schema.events_statements_current', 'performance_schema.threads']",{},{}
+ ,"['performance_schema.events_stages_history_long.*', 'performance_schema.events_stages_history_long.nesting_event_id']",['performance_schema.events_stages_history_long'],{},{}
+ ,"['performance_schema.events_waits_history_long.*', 'performance_schema.events_waits_history_long.nesting_event_id']",['performance_schema.events_waits_history_long'],{},{}
+ ,[],[],{},{}
+ ,['*'],['general_log'],{},{}
+ ,"['performance_schema.events_statements_current.*', 'performance_schema.threads.thread_id', 'performance_schema.events_statements_current.thread_id', 'performance_schema.threads.processlist_id']","['performance_schema.events_statements_current', 'performance_schema.threads']",{},{}
+ ,"['performance_schema.events_stages_history_long.*', 'performance_schema.events_stages_history_long.nesting_event_id']",['performance_schema.events_stages_history_long'],{},{}
+ ,"['performance_schema.events_waits_history_long.*', 'performance_schema.events_waits_history_long.nesting_event_id']",['performance_schema.events_waits_history_long'],{},{}
+ ,['version_comment'],[],{},{}
+ ,[],[],{},{}
+ ,['*'],['general_log'],{},{}
+ ,[],[],{},{}
+ ,[],[],{},{}
+ ,[],[],{},{}
+ ,[],[],{},{}
+ ,[],[],{},{}
+ ,[],[],{},{}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'departments.department_name', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{}
+ ,"['departments.department_name', 'employees.salary', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{'total_salary': 'employees.salary'}
+ ,"['employees.first_name', 'employees.last_name', 'employees.manager_id', 'employees.employee_id']",['employees'],{},"{'employee_first_name': 'employees.first_name', 'employee_last_name': 'employees.last_name', 'manager_first_name': 'employees.first_name', 'manager_last_name': 'employees.last_name'}"
+ ,"['departments.department_name', 'employees.first_name', 'employees.last_name', 'employees.salary', 'employees.department_id', 'departments.department_id', 'department_id', 'salary']","['employees', 'departments']",{},{}
+ ,"['employees.first_name', 'employees.last_name', 'jobs.job_title', 'employees.hire_date', 'employees.job_id', 'jobs.job_id']","['employees', 'jobs']",{},{}
+ ,"['jobs.job_title', 'employees.salary', 'employees.job_id', 'jobs.job_id']","['employees', 'jobs']",{},{'average_salary': 'employees.salary'}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'dependents.dependent_id', 'dependents.employee_id']","['employees', 'dependents']",{},{'num_dependents': 'dependents.dependent_id'}
+ ,"['employees.first_name', 'employees.last_name', 'countries.country_name', 'regions.region_name', 'employees.department_id', 'departments.department_id', 'departments.location_id', 'locations.location_id', 'locations.country_id', 'countries.country_id', 'countries.region_id', 'regions.region_id']","['employees', 'departments', 'locations', 'countries', 'regions']",{},{}
+ ,"['departments.department_name', 'employees.salary', 'employees.department_id', 'departments.department_id']","['employees', 'departments']",{},{'total_salary': 'employees.salary'}
+ ,"['employees.employee_id', 'employees.first_name', 'employees.last_name', 'dependents.dependent_id', 'dependents.employee_id']","['employees', 'dependents']",{},{'num_dependents': 'dependents.dependent_id'}
+ ,[],[],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,[],[],{},{}
+"[5, 'Oceania']","['region_id', 'region_name']",['regions'],{},{}
+"['NZ', 'New Zealand', 5]","['country_id', 'country_name', 'region_id']",['countries'],{},{}
+"[2800, '123 Beach Rd', '54321', 'Auckland', 'NULL', 'NZ']","['location_id', 'street_address', 'postal_code', 'city', 'state_province', 'country_id']",['locations'],{},{}
+"[20, 'Data Analyst', 5000.0, 10000.0]","['job_id', 'job_title', 'min_salary', 'max_salary']",['jobs'],{},{}
+"[12, 'Data Analysis', 2800]","['department_id', 'department_name', 'location_id']",['departments'],{},{}
+"[300, 'Emma', 'Smith', 'emma.smith@example.com', '123.456.7890', '2023-05-15', 20, 8000.0, 100, 12]","['employee_id', 'first_name', 'last_name', 'email', 'phone_number', 'hire_date', 'job_id', 'salary', 'manager_id', 'department_id']",['employees'],{},{}
+"[31, 'Oliver', 'Smith', 'Child', 300]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
+ ,['employee_id'],['employee_skills'],{},{}
+"['SQL', 100, 'Python', 103, 'Java', 110, 'Data Analysis', 300]","['skill_name', 'employee_id']",['employee_skills'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
+ ,['*'],['general_log'],{},{}
