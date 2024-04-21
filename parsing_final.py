@@ -39,11 +39,11 @@ with open(r'C:\Users\LENOVO\Desktop\sql_1\sql_1\logfile.csv', 'r', newline='') a
         # print(row)
         # print(len(row))
         if('Query'in row[4]):
+            statements.append(row[-1][2:-1])
             # # row1=(', '.join(row))
             # print(row[-1])
             # statements = sqlparse.split(row[-1])
             # # print(statements)
-            statements.append(row[-1][2:-1])
             # statements.append(sqlparse.format(row[-1] , reindent=True, keyword_case='upper'))
 
 # print(len(statements))
