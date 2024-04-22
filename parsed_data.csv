@@ -1,4 +1,4 @@
-values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used 
+values inserted,Columns Used ,Tables Used , Subqueries Used , Column aliases Used 
  ,[],['regions'],{},{}
  ,[],['countries'],{},{}
  ,[],['locations'],{},{}

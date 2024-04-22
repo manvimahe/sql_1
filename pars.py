@@ -27,7 +27,7 @@ with open(r'C:\Users\LENOVO\Desktop\sql_1\sql_1\output2.csv', 'r', newline='') a
 
 
 with open(r'parsed_data.csv', 'w', newline='') as outfile : 
-    parsed_data=[['values inserted', 'Columns Used ', 'Tables Used ', ' Tables Used ',' Column aliases Used ']]
+    parsed_data=[['values inserted', 'Columns Used ', 'Tables Used ', ' Subqueries Used ',' Column aliases Used ']]
    
     
     for i in range(4, len(statements)):

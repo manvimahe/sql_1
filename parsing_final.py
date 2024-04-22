@@ -62,7 +62,7 @@ for i in range(len(statements)):
 
 
 with open(r'parsed_data_new.csv', 'w', newline='') as outfile : 
-    parsed_data=[['values inserted', 'Columns Used ', 'Tables Used ', ' Tables Used ',' Column aliases Used ']]
+    parsed_data=[['values inserted', 'Columns Used ', 'Tables Used ', ' Subqueries Used ',' Column aliases Used ']]
    
     
     for i in range(4, len(statements)):

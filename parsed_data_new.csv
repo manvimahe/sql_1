@@ -1,4 +1,4 @@
-values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used 
+values inserted,Columns Used ,Tables Used , Subqueries Used , Column aliases Used 
  ,[],[],{},{}
  ,['*'],['regions'],{},{}
  ,"['performance_schema.events_statements_current.*', 'performance_schema.threads.thread_id', 'performance_schema.events_statements_current.thread_id', 'performance_schema.threads.processlist_id']","['performance_schema.events_statements_current', 'performance_schema.threads']",{},{}
@@ -44,6 +44,7 @@ values inserted,Columns Used ,Tables Used , Tables Used , Column aliases Used
 "[31, 'Oliver', 'Smith', 'Child', 300]","['dependent_id', 'first_name', 'last_name', 'relationship', 'employee_id']",['dependents'],{},{}
  ,['employee_id'],['employee_skills'],{},{}
 "['SQL', 100, 'Python', 103, 'Java', 110, 'Data Analysis', 300]","['skill_name', 'employee_id']",['employee_skills'],{},{}
+ ,['*'],['general_log'],{},{}
  ,['*'],['general_log'],{},{}
  ,['*'],['general_log'],{},{}
  ,['*'],['general_log'],{},{}
